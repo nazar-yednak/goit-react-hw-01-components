@@ -6,7 +6,7 @@ import user from './user'
 import friends from './friends'
 import data from './data'
 import transactions from './transactions'
-import {Container} from './App.styled'
+import {Container} from '../App.styled'
 
 
 export const App = () => {

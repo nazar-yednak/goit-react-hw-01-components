@@ -24,15 +24,15 @@ export function Profile({ avatar, location, tag, username, stats }) {
   <Stats >
     <StatsItem>
       <StatsLabel >Followers</StatsLabel>
-      <StatsQuantity className="quantity">{stats.followers}</StatsQuantity>
+      <StatsQuantity>{stats.followers}</StatsQuantity>
     </StatsItem>
     <StatsItem>
       <StatsLabel >Views</StatsLabel>
-      <StatsQuantity className="quantity">{stats.views}</StatsQuantity>
+      <StatsQuantity >{stats.views}</StatsQuantity>
     </StatsItem>
     <StatsItem>
       <StatsLabel >Likes</StatsLabel>
-      <StatsQuantity className="quantity">{stats.likes}</StatsQuantity>
+      <StatsQuantity >{stats.likes}</StatsQuantity>
     </StatsItem>
   </Stats>
 </ProfileWrapper>
@@ -45,4 +45,3 @@ Profile.propTypes = {
     tag: PropTypes.string,
     stats: PropTypes.objectOf(PropTypes.number)
 }
- //d
