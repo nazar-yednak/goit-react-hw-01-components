@@ -33,7 +33,6 @@ export const Chip = styled.span`
   margin-right: 10px;
 
   background-color: ${ props => {
-console.log(props.isOnline);
     switch (props.isOnline) {
         case true: return 'green';
         default: return 'red'
