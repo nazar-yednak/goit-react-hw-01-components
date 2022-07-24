@@ -44,4 +44,5 @@ Profile.propTypes = {
     location: PropTypes.string,
     tag: PropTypes.string,
     stats: PropTypes.objectOf(PropTypes.number)
- }
+}
+ //d
