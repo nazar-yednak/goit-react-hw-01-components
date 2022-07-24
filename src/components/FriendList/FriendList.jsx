@@ -1,22 +1,24 @@
 import React from 'react';
 import PropTypes from "prop-types";
-
+import {FriendListUl, FriendListItem, Chip, Avatar,FriendName} from './FriendList.styled'
 
 export function FriendList({friends }) {
-    return( <ul >
+    return( <FriendListUl >
       {friends.map(friend => (
-        <li  key={friend.id}>
-          <span ></span>
-          <img
+        <FriendListItem  key={friend.id}>
+          <Chip isOnline={friend.isOnline}></Chip>
+        
+          <Avatar
       
             src={friend.avatar}
             alt="User avatar"
             width="52"
           />
-          <p >{friend.name}</p>
-        </li>
+          <FriendName >{friend.name}</FriendName>
+        </FriendListItem>
       ))}
-    </ul>
+    </FriendListUl>
+  
   );
 }
 
