@@ -2,7 +2,7 @@
   "name": "goit-react-hw-01-components",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/nazar-yednak/goit-react-hw-01-components.git",
+  "homepage": "https://nazar-yednak.github.io/goit-react-hw-01-components/",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
