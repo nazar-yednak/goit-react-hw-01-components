@@ -1,5 +1,4 @@
-import styled from "@emotion/styled";
-
+import styled from '@emotion/styled';
 
 export const TransactionHistoryTable = styled.table`
   margin-left: auto;
@@ -12,15 +11,17 @@ export const TransactionHistoryTable = styled.table`
   border-collapse: collapse;
   text-align: center;
   background-color: beige;
-`
+`;
 export const TableHead = styled.thead`
   border-bottom: 10px;
-  background-color: rgba(255, 255, 128, .6 );
-`
+  background-color: rgba(255, 255, 128, 0.6);
+`;
 export const TableRow = styled.tr`
   border: 4px solid;
-  padding: 20px;`
+  padding: 20px;
+`;
 
 export const TableRowItem = styled.td`
-   border: 1px solid gray;
-  padding: 5px;`
+  border: 1px solid gray;
+  padding: 5px;
+`;
